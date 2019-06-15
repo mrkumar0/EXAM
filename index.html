@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Online Exam</title>
+  <link rel="icon" type="image/ico" href="https://images.all-free-download.com/images/graphiclarge/orange_crush_514795.jpg" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="css/cstyle.css">
+  <link rel="stylesheet" href="css/buttonstyle.css">
+</head>
+<body onload="startTime()">
+<!-- header start -->
+<div class="col-sm-12">
+  <div class="panel panel-default">
+    <div class="panel-heading text-center" style="background-color: #98bfe2">
+      <i class="fa fa-bar-chart fa-lg"></i> Time Remaining: <span id="txt"></span>
+    </div>
+  </div>
+</div>
+<!-- header end --> 
+<!-- main body start --> 
+<div class="container-fluid">    
+  <div class="row content">
+    <!-- main side  start -->
+    <div class="col-sm-9">
+      <div class="panel panel-default  text-left" style="margin-bottom: 5px">
+        <div class="panel-heading">
+          <i class="fa fa-bar-chart fa-lg"></i>
+          <span class="glyphicon glyphicon-th"></span> 
+          <strong>Mathematics</strong>
+          <subject id="subject_mat" class="glyphicon glyphicon-chevron-down" style="float: right;"></subject>
+        </div>
+        <div class="panel-body" id="subject_mat_body" style="display: none;">
+          <b>Question No. 01</b>
+          <div class="well" style="margin-bottom: 0">
+            The circuit shown in figure was at steady state for 𝑡 < 0 with the switch at position ‘A’. The switch is thrown to position ‘B’ at time 𝑡 = 0. The voltage 𝑉 (volts) across the 10 Ω resistor at time 𝑡 = 0+ is  ___________.<br>
+            <img src="image/Q1.jpg" style="max-width: 100%"><br><br>
+              <input type="radio" name="PQ01" value="PQ01A"> 10V<br>
+              <input type="radio" name="PQ01" value="PQ01B"> 15V<br>
+              <input type="radio" name="PQ01" value="PQ01C"> 20V<br>
+              <input type="radio" name="PQ01" value="PQ01D"> 30V<br>
+          </div>
+          <div style="margin: 0;padding: 5px; float: right;">
+            <button class="blue-pill">Mark for Review</button>
+            <button class="blue-pill">Clear Response</button>
+            <button class="blue-pill">Previous</button>
+            <button class="blue-pill">Save & Next</button>
+          </div>
+        </div>
+      </div> 
+
+      
+      <div class="panel panel-default  text-left" style="margin-bottom: 5px">
+        <div class="panel-heading">
+          <i class="fa fa-bar-chart fa-lg"></i>
+          <span class="glyphicon glyphicon-th"></span> 
+          <strong>Chemistry</strong>
+          <subject id="subject_che" class="glyphicon glyphicon-chevron-down" style="float: right;"></subject>
+        </div>
+        <div class="panel-body" id="subject_che_body" style="display: none;">
+          <b>Question No. 01</b>
+          <div class="well" style="margin-bottom: 0">
+            The circuit shown in figure was at steady state for 𝑡 < 0 with the switch at position ‘A’. The switch is thrown to position ‘B’ at time 𝑡 = 0. The voltage 𝑉 (volts) across the 10 Ω resistor at time 𝑡 = 0+ is  ___________.<br>
+            <img src="image/Q1.jpg" style="max-width: 100%"><br><br>
+              <input type="radio" name="PQ01" value="PQ01A"> 10V<br>
+              <input type="radio" name="PQ01" value="PQ01B"> 15V<br>
+              <input type="radio" name="PQ01" value="PQ01C"> 20V<br>
+              <input type="radio" name="PQ01" value="PQ01D"> 30V<br>
+          </div>
+          <div style="margin: 0;padding: 5px; float: right;">
+            <button class="blue-pill">Mark for Review</button>
+            <button class="blue-pill">Clear Response</button>
+            <button class="blue-pill">Previous</button>
+            <button class="blue-pill">Save & Next</button>
+          </div>
+        </div>
+      </div> 
+
+
+      <div class="panel panel-default  text-left" style="margin-bottom: 5px">
+        <div class="panel-heading">
+          <i class="fa fa-bar-chart fa-lg"></i>
+          <span class="glyphicon glyphicon-th"></span> 
+          <strong>Physics</strong>
+          <subject id="subject_phy" class="glyphicon glyphicon-chevron-down" style="float: right;";></subject>
+        </div>
+        <div class="panel-body" id="subject_phy_body" style="display: none;">
+          <b>Question No. 01</b>
+          <div class="well" style="margin-bottom: 0">
+            The circuit shown in figure was at steady state for 𝑡 < 0 with the switch at position ‘A’. The switch is thrown to position ‘B’ at time 𝑡 = 0. The voltage 𝑉 (volts) across the 10 Ω resistor at time 𝑡 = 0+ is  ___________.<br>
+            <img src="image/Q1.jpg" style="max-width: 100%"><br><br>
+              <input type="radio" name="PQ01" value="PQ01A"> 10V<br>
+              <input type="radio" name="PQ01" value="PQ01B"> 15V<br>
+              <input type="radio" name="PQ01" value="PQ01C"> 20V<br>
+              <input type="radio" name="PQ01" value="PQ01D"> 30V<br>
+          </div>
+          <div style="margin: 0;padding: 5px; float: right;">
+            <button class="blue-pill">Mark for Review</button>
+            <button class="blue-pill">Clear Response</button>
+            <button class="blue-pill">Previous</button>
+            <button class="blue-pill">Save & Next</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- main side end -->
+    <!-- right side start -->
+    <div class="col-sm-3">
+      <div class="panel panel-default text-left">
+        <div class="panel-heading">
+          <i class="fa fa-bar-chart fa-lg"></i> <strong>Question Pallet</strong>
+        </div>
+        <div class="panel-body">
+          <b>subject Ranjan</b>
+          <img src="https://images.all-free-download.com/images/graphiclarge/orange_crush_514795.jpg" alt="Photo" width="100" height="100">
+          <br><br>
+          <button class="punch">01</button><button class="punch">02</button><button class="punch">03</button><button class="punch">04</button><button class="punch">05</button><button class="punch">06</button><button class="punch">07</button><button class="punch">08</button><button class="punch">09</button><button class="punch">10</button><button class="punch">11</button><button class="punch">12</button><button class="punch">13</button><button class="punch">14</button><button class="punch">15</button><button class="punch">16</button><button class="punch">17</button><button class="punch">18</button><button class="punch">19</button><button class="punch">20</button>
+        </div>
+        <button class="punch_NA"></button><span>    Not Answered</span><br><button class="punch_M"></button><span>    Marked For Review</span><br><button class="punch_A"></button><span>    Answered</span><br><button class="punch_NV"></button><span>    Not Visited</span><br>
+      </div>
+    </div>
+    <!-- right side end -->
+  </div>
+</div>
+ <!-- main body end -->
+ <!-- footer start -->
+<div class="footer"><small>&copy; Copyright 2019, Online Exam</small></div>
+<!-- footer end -->
+</body>
+<script>
+function startTime() {
+  var today = new Date();
+  var h = today.getHours();
+  var m = today.getMinutes();
+  var s = today.getSeconds();
+  m = checkTime(m);
+  s = checkTime(s);
+  document.getElementById('txt').innerHTML =
+  h + ":" + m + ":" + s;
+  var t = setTimeout(startTime, 500);
+}
+function checkTime(i) {
+  if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+  return i;
+}
+
+$( "subject" ).click(function() {
+  var subject_panel = '#'+ $(this).attr('id');
+  $(subject_panel).toggleClass( "glyphicon-chevron-up" ).toggleClass("glyphicon-chevron-down");
+  var subject_panel_body = subject_panel +'_body';
+  $(subject_panel_body).toggle();
+  if (subject_panel == "#subject_phy") {
+  	$("#subject_che_body").hide();
+  	if($('#subject_che').attr('class') == 'glyphicon glyphicon-chevron-up'){
+  		$(subject_panel).toggleClass( "glyphicon-chevron-down" ).toggleClass("glyphicon-chevron-up");
+  	}
+  	$("#subject_mat_body").hide();
+  	if($('#subject_mat').attr('class') == 'glyphicon glyphicon-chevron-up'){
+  		$('#subject_mat').toggleClass( "glyphicon-chevron-down" ).toggleClass("glyphicon-chevron-up");
+  	}
+  } else if(subject_panel == "#subject_che") {
+  	$("#subject_phy_body").hide();
+  	if($('#subject_phy').attr('class') == 'glyphicon glyphicon-chevron-up'){
+  		$('#subject_phy').toggleClass( "glyphicon-chevron-down" ).toggleClass("glyphicon-chevron-up");
+  	}
+  	$("#subject_mat_body").hide();
+  	if($('#subject_mat').attr('class') == 'glyphicon glyphicon-chevron-up'){
+  		$('#subject_mat').toggleClass( "glyphicon-chevron-down" ).toggleClass("glyphicon-chevron-up");
+  	}
+  } else{
+  	$("#subject_che_body").hide();
+  	if($('#subject_che').attr('class') == 'glyphicon glyphicon-chevron-up'){
+  		$('#subject_che').toggleClass( "glyphicon-chevron-down" ).toggleClass("glyphicon-chevron-up");
+  	}
+  	$("#subject_phy_body").hide();
+  	if($('#subject_phy').attr('class') == 'glyphicon glyphicon-chevron-up'){
+  		$('#subject_phy').toggleClass( "glyphicon-chevron-down" ).toggleClass("glyphicon-chevron-up");
+  	}
+  }
+});
+</script>
+</html>
